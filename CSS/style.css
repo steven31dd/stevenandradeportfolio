@@ -18,7 +18,12 @@ body{
 }
 
 .set-center{
+  text-align: center;
+}
 
+.expand-padding-sm{
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #split{
@@ -53,6 +58,11 @@ body{
   font-weight: bold;
   font-size: 14px;
   text-align: center;
+}
+
+.set-size{
+  width: 480px;
+  max-width: 480px;
 }
 
 @media only screen and (max-width: 600px){
