@@ -65,7 +65,7 @@ body{
   max-width: 480px;
 }
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 1024px){
   .set-size{
     width: 375px;
     max-width: 375px;
