@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+
+    /* modified: custom color and full width body*/
+    background-color: #90AFC5;
+    margin: 0;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+/* modified: */
+.cusContainer-head{
+    background-color: #336B87;
+    border-radius: 15px;
+}
+
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+ /* modified: set background of td to white by default */
+td {
+    background-color: #ffffff;
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}

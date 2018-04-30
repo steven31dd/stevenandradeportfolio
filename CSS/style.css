@@ -2,13 +2,6 @@ body{
   padding: 0;
   margin: 0 auto;
 
-  background-image: url(../Media/daniel-olah-578592-unsplash.jpg);
-  background-size: cover;
-  background-color: #000;
-  height: 100%;
-  width: 100%;
-  min-height: 100%;
-  min-width: 100%;
 }
 
 .caption {
@@ -38,9 +31,11 @@ body{
   vertical-align:top;
   height:100%;
   width:50%;
+  background-color: #000;
 }
 
 .item:nth-child(2){
+  background-color: darkgreen;
 }
 
 .bg-panel{
@@ -61,13 +56,11 @@ body{
 }
 
 .set-size{
-  width: 480px;
   max-width: 480px;
 }
 
 @media only screen and (max-width: 1024px){
   .set-size{
-    width: 375px;
     max-width: 375px;
   }
 }
